@@ -7,7 +7,7 @@
 header{
     display: flex;
     justify-content: center;
-    margin-top: 135px;
+    margin-top: 188px;
 }
 
 form{
@@ -16,5 +16,32 @@ form{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-top: 120px;
+    margin-top: 155px;
+}
+
+button{
+    width: 300px;
+    border: none;
+    outline: none;
+    display: inline-block;
+    padding: 10px;
+    color: #DCD7C9;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+input, textarea{
+    width: 100%;
+    padding: 10px;
+    outline: 0;
+    border: 1px solid #3F4E4F;
+    color: #A27B5C;
+    background: transparent;
 }
